@@ -1,3 +1,5 @@
+**Explanation post: [https://gianlucafabrizi.dev/blog/posts/1brc-php-ffi/](https://gianlucafabrizi.dev/blog/posts/1brc-php-ffi/)**  
+
 ## Enable FFI in PHP 8.3 (Arch Linux)
 ```sh
 sudo sed -i 's/;extension=ffi/extension=ffi/' /etc/php/php.ini
