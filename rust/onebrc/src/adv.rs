@@ -133,9 +133,6 @@ pub fn process(path: String) -> *mut c_char {
     let json_string = CString::new(serde_json::to_string(&cities).unwrap()).unwrap();
 
     json_string.into_raw()
-
-    //cities.iter().for_each(|city| println!("{city}"));
-    //Ok(())
 }
 
 fn reader(

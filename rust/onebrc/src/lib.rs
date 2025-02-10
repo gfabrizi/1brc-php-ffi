@@ -66,7 +66,7 @@ pub extern "C" fn run(filename: *const c_char) -> *mut c_char {
      * Converting a c-style string into a Rust string
      *
      * https://stackoverflow.com/questions/24145823/how-do-i-convert-a-c-string-into-a-rust-string-and-back-via-ffi
-     * https://stackoverflow.com/questions/66582380/pass-string-from-c-sharp-to-rust-using-ffi
+     * http://jakegoulding.com/rust-ffi-omnibus/string_arguments/
      * https://crates.io/crates/libc
      */
     let c_str = unsafe {
